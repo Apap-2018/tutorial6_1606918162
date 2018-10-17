@@ -1,0 +1,9 @@
+1. Karena PilotModel merupakan salah satu atribut dari FlightModel. Sebuah FlightModel tidak akan menjadi objek Flight yang lengkap jika tidak memiliki Pilot/PilotModel.
+2. Terjadi ConstraintViolationException, hal ini terjadi karena PilotModel dibutuhkan (wajib) sebagai atribut dari FlightModel.
+3. Mengembalikan objek FlightModel saat pencarian flight dengan flight number berhasil ditemukan.
+4. Mengembalikan objek FlightModel saat pencarian flight dengan method dari "flightService" dengan parameter flight number ditemukan.
+5. Code tersebut mengembalikan status response apakah OK atau tidak responsenya.
+6. Yang ditest adalah data flight number yang dihasilkan dari akses ke ResponseBody dengan JSONPath dengan data flight number yang didapatkan dari method getFLightNumber dari flight yang telah dibuat.
+7. @ResponseBody memberitahu Controller untuk mengubah data FlightModel yaitu objek flight menjadi bentuk tipe data JSON.
+
+Di Apache ada yang berwarna merah karena laptop tidak kuat untuk menjadi server dari 50 akses.
